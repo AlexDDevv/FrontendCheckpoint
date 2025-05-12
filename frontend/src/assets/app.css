@@ -39,4 +39,5 @@
 body {
     background-color: var(--color-background);
     font-family: var(--font-body);
+    padding: 24px;
 }

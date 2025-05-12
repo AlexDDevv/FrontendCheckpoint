@@ -1,3 +1,11 @@
+import CountriesList from "../components/countries/CountriesList";
+import CountryForm from "../components/CountryForm";
+
 export function HomePage() {
-  return <p>You should start working here!</p>;
+    return (
+        <>
+            <CountriesList />
+            <CountryForm />
+        </>
+    );
 }
